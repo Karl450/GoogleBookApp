@@ -1,0 +1,32 @@
+body {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "Source Code Pro", monospace;
+}
+
+.searchBar {
+    width: 100%;
+    height: 25px;
+    text-align: center;
+}
+
+#bookList {
+    list-style-type: none;
+    padding: 0;
+}
+  
+.bookEntry {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+  
+.thumbnail {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    margin-right: 10px;
+}
+  
+
